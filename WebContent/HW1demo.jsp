@@ -19,7 +19,6 @@
     <% 
      String db = "cs157a";
         try {
-            // Test comment
             java.sql.Connection con;
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cs157a?user=user&password=password&useSSL=false");
             out.println(db + " database successfully opened.<br/><br/>");
